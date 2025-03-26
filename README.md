@@ -5,35 +5,32 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 [![arXiv](https://img.shields.io/badge/arXiv-Preprint-red)](https://arxiv.org) *(Coming Soon)*
 
-## Core Principle
+ Core Principle
 Gravity's strength (κ) depends on both:
 1. Local matter density (ρ)
 2. Nonlocal hypergraph connectivity (∑Nₑ):
 
    \kappa(\rho, H) = \frac{\rho_0}{\rho} + \lambda \sum_{\text{nonlocal edges}} N_e
    
-# Hypergraph Gravity Dictionary  
+ Hypergraph Gravity Dictionary  
 *A formalization of nonlocal emergent gravity in a hypergraph spacetime.*  
 
 ---
 
-## **Core Terms**  
+ **Core Terms**  
 
-### **1. Hypergraph Gravity**  
-**Definition**: Gravity emerges from interaction density (ρ) and nonlocal hyperedges.  
-**Math**:  
-```math  
+1. Hypergraph Gravity
+ Gravity emerges from interaction density (ρ) and nonlocal hyperedges.  
+
 \kappa(\rho, H) = \frac{\rho_0}{\rho} + \lambda \sum_{\text{nonlocal edges}} N_e
-# Hypergraph Gravity Dictionary  
+
+Hypergraph Gravity Dictionary  
 *A formalization of nonlocal emergent gravity in a hypergraph spacetime.*  
 Prediction: Flattened galaxy rotation curves without dark matter in high-connectivity regions.
 
 2. Dark Matter Illusion
 Definition: Apparent missing mass is weakened gravity (κ ≫ 1) in low-ρ, low-connectivity regions.
-Math:
 
-math
-Copy
 M_{\text{dyn}} = \kappa(\rho, H) \cdot M_{\text{baryonic}}  
 Observation: Dwarf galaxies with no dark matter (e.g., NGC 1052-DF2).
 
@@ -154,4 +151,4 @@ Tabletop entanglement-gravity experiments
 License
 This work is licensed under MIT License. When using, please cite:
 
-Kfir Dominick Barami. (2024). Hypergraph Gravity Framework. GitHub repository.
+Kfir Dominick Barami & DeepSeek. (2024). Hypergraph Gravity Framework. GitHub repository.
