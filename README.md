@@ -9,7 +9,7 @@
 Gravity's strength (κ) depends on both:
 1. Local matter density (ρ)
 2. Nonlocal hypergraph connectivity (∑Nₑ):
-```math
+
    \kappa(\rho, H) = \frac{\rho_0}{\rho} + \lambda \sum_{\text{nonlocal edges}} N_e
    
  Hypergraph Gravity Dictionary  
@@ -39,8 +39,7 @@ The spectral dimension *dₛ* of the hypergraph determines observed spacetime:
 ```math
 d_s = -2\frac{d\ln P(s)}{d\ln s} \xrightarrow{\text{macroscopic}} 3+1
 
-
----
+  
 where P(s) is the return probability of a random walk on the hypergraph.
 
 Implications
