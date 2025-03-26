@@ -9,7 +9,7 @@
 Gravity's strength (κ) depends on both:
 1. Local matter density (ρ)
 2. Nonlocal hypergraph connectivity (∑Nₑ):
-
+```math
    \kappa(\rho, H) = \frac{\rho_0}{\rho} + \lambda \sum_{\text{nonlocal edges}} N_e
    
  Hypergraph Gravity Dictionary  
