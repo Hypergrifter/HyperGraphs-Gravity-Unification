@@ -36,7 +36,6 @@ Emergent Spacetime from Hypergraph Dynamics
 ## Mathematical Emergence
 The spectral dimension *dₛ* of the hypergraph determines observed spacetime:
 
-```math
 d_s = -2\frac{d\ln P(s)}{d\ln s} \xrightarrow{\text{macroscopic}} 3+1  ---
 
   
