@@ -14,3 +14,5 @@ Gravity's strength (κ) depends on both:
    
  Hypergraph Gravity Dictionary  
 *A formalization of nonlocal emergent gravity in a hypergraph spacetime.*  
+
+Written by Kfir Dominick Barami & Deepseek 
