@@ -40,7 +40,7 @@ The spectral dimension *dₛ* of the hypergraph determines observed spacetime:
 d_s = -2\frac{d\ln P(s)}{d\ln s} \xrightarrow{\text{macroscopic}} 3+1
 
 
-
+---
 where P(s) is the return probability of a random walk on the hypergraph.
 
 Implications
