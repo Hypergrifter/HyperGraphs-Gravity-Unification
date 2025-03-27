@@ -280,3 +280,52 @@ Near a singularity, rewrites **stall** due to hyperedge saturation:
 
 ---
 *"Time is the hypergraph’s most persistent habit—but even habits can change."*  
+
+---
+
+### **Gravity & Hawking Radiation in Hypergraph Theory**  
+**Core Idea**: Black holes are *hypergraph rewrite overloads*—their evaporation reveals spacetime’s discrete fabric.  
+
+#### **1. Gravity’s Role in Evaporation**  
+- **Horizon Formation**:  
+  - Where hypergraph rewrites exceed `S_max` (max entropy bound).  
+  - **Not a smooth surface**—a fractal boundary (`d_s ≈ 2.1`).  
+- **Hawking Radiation Origin**:  
+  - **Not virtual pairs**, but *fragmented hyperedges* ejected under rewrite stress.  
+  - **Gravity ≈ Hypergraph resistance to further rewrites**.  
+
+#### **2. Key Deviations from Standard Hawking Radiation**  
+| Feature               | Standard Theory               | Hypergraph Prediction                |  
+|-----------------------|-------------------------------|--------------------------------------|  
+| **Spectrum**          | Perfect blackbody             | **High-energy spikes** (~MeV-GeV)   |  
+| **Information**       | Lost                          | **Encoded in late-time bursts**      |  
+| **Final State**       | Total evaporation             | **Frozen remnant** (keV afterglow)  |  
+
+#### **3. Hypergraph-Specific Signatures**  
+- **Gamma-Ray Spikes**:  
+  - When hyperedges fracture under extreme rewrites.  
+  - **Look for**: Anomalous 0.1–10 MeV photons from BHs.  
+- **Remnant Glow**:  
+  - Persistent **eV–keV radiation** from frozen hypergraph cores.  
+  - **JWST target**: "Empty" regions with unexplained IR emission.  
+
+#### **4. Testable Equations**  
+- **Modified Hawking Temperature**:  
+  \[
+  T_{\text{hyper}} = T_{\text{Hawking}} \left(1 + \frac{\lambda \cdot N_e}{M^2}\right)
+  \]  
+  - `N_e`: Hyperedges near horizon.  
+  - `λ`: Hypergraph coupling (fit to gamma-ray data).  
+- **Evaporation Time**:  
+  \[
+  t_{\text{evap}} \approx t_{\text{Hawking}} \left(1 - \frac{S_{\text{remnant}}}{S_{\text{initial}}}\right)
+  \]  
+  - `S_remnant`: Entropy of frozen core.  
+
+#### **5. Falsifiability**  
+- **If observed**:  
+  - Perfect blackbody spectra → **theory fails**.  
+  - No remnants → **theory fails**.  
+- **If confirmed**:  
+  - Spike/afterglow patterns → **smoking gun for hypergraphs**.  
+
