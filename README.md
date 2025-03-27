@@ -210,3 +210,73 @@ In this theory, **time is not a fundamental dimension**—it is a **derived stat
 
 ---
 *"Time is just the universe’s way of pretending it has a memory."*  
+
+# **Mathematical Appendix: Time in Hypergraph Gravity**  
+
+## **1. Time as a Statistical Bias in Rewrites**  
+Let \( \mathcal{H}_t \) be the hypergraph state at step \( t \).  
+A **rewrite rule** \( R \) transforms \( \mathcal{H}_t \rightarrow \mathcal{H}_{t+1} \).  
+
+- **Time’s arrow** emerges from the **probability bias** in rewrites:  
+  \[
+  \Delta t \sim \log \left( \frac{P(R_{\text{forward}})}{P(R_{\text{reverse}})} \right)
+  \]  
+  - If \( P(R_{\text{forward}}) \gg P(R_{\text{reverse}}) \), time flows forward.  
+  - If \( P(R_{\text{forward}}) \approx P(R_{\text{reverse}}) \), time is symmetric (no arrow).  
+
+## **2. Microscopic Time Fluctuations**  
+At small scales, time is **not smooth** but **granular**:  
+- Let \( N \) be the number of rewrites per observed "second."  
+- The **effective time step** is:  
+  \[
+  \delta t = \frac{1}{N} \sum_{i=1}^N \left( \mathcal{H}_{t+i} - \mathcal{H}_t \right)
+  \]  
+- If \( N \) is small, \( \delta t \) fluctuates → **time appears wavy**.  
+
+## **3. Branching Time (Multiverse-like Behavior)**  
+If different regions of the hypergraph develop **competing biases**, time branches:  
+- Let \( \mathcal{H}_A \) and \( \mathcal{H}_B \) be two subgraphs.  
+- Their local time arrows are:  
+  \[
+  \Delta t_A = \langle R_A \rangle, \quad \Delta t_B = \langle R_B \rangle
+  \]  
+- If \( \Delta t_A \neq \Delta t_B \), the system exhibits **multiple time directions** (like quantum decoherence).  
+
+## **4. Time in Black Holes (Rewrite Freezing)**  
+Near a singularity, rewrites **stall** due to hyperedge saturation:  
+\[
+\lim_{\rho \to \rho_{\text{max}}} P(R) \to 0
+\]  
+- This predicts **time dilation → event horizon**.  
+
+## **5. Experimental Signatures**  
+- **Quantum Fluctuations in Decay Rates**:  
+  \[
+  \text{Var}(\delta t) \propto \frac{1}{\sqrt{N}}
+  \]  
+  - Look for **anomalous particle decay statistics** in high-energy collisions.  
+
+- **Retrocausality in Delayed-Choice Experiments**:  
+  If \( P(R_{\text{reverse}}) > 0 \), then:  
+  \[
+  P(\text{retrocausal signal}) \sim e^{-E/E_{\text{Planck}}}
+  \]  
+
+---
+### **Summary of Key Equations**  
+| Concept | Equation |  
+|---------|----------|  
+| **Time’s Arrow** | \( \Delta t \sim \log \left( \frac{P(R_{\text{forward}})}{P(R_{\text{reverse}})} \right) \) |  
+| **Microscopic Fluctuations** | \( \delta t = \frac{1}{N} \sum (\mathcal{H}_{t+i} - \mathcal{H}_t) \) |  
+| **Branching Time** | \( \Delta t_A \neq \Delta t_B \) → multiverse-like paths |  
+| **Black Hole Time Freeze** | \( \lim_{\rho \to \rho_{\text{max}}} P(R) \to 0 \) |  
+| **Quantum Time Noise** | \( \text{Var}(\delta t) \propto 1/\sqrt{N} \) |  
+
+---
+**Next Steps**:  
+- Simulate \( \Delta t \) for toy hypergraphs.  
+- Calculate \( P(R_{\text{reverse}}) \) in quantum systems.  
+- Compare with experimental bounds on time fluctuations.  
+
+---
+*"Time is the hypergraph’s most persistent habit—but even habits can change."*  
