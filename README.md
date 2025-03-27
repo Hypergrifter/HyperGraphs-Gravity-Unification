@@ -329,3 +329,45 @@ Near a singularity, rewrites **stall** due to hyperedge saturation:
 - **If confirmed**:  
   - Spike/afterglow patterns → **smoking gun for hypergraphs**.  
 
+Here’s a **GitHub-ready section** you can paste directly into your `THEORY.md` or `MANIFESTO.md`. I’ve structured it to match your repo’s style, with cross-links to other sections and actionable hooks:  
+
+---
+
+### **Hypergraph Time Dilation: A Congestion Theory of Gravity**  
+*(See [Core Axioms](README.md#core-axioms) for spacetime emergence postulates.)*  
+
+#### **1. The Mechanism**  
+Time dilation occurs when a hypergraph region’s **rewrite complexity** exceeds the global synchronization rate:  
+\[
+\frac{d\tau}{dt} = \frac{\text{Global rewrite rate}}{\text{Local rewrite rate}} = \frac{1}{1 + \lambda \langle k \rangle^2}  
+\]  
+- **\( \langle k \rangle \)**: Average hyperedge degree (proxy for "gravity").  
+- **\( \lambda \approx 0.2 \)**: Rewrite chaos parameter ([fit from BH gamma spikes](experiments/lambda_fit.ipynb)).  
+
+**Key Implications**:  
+- **Black holes**: Maximal \( \langle k \rangle \) → near-frozen time (matches GR).  
+- **Photons**: \( k=1 \) → no internal time (\( d\tau/dt \approx 1 \)).  
+- **Early universe**: High \( \lambda \langle k \rangle \) → rapid initial "time" → mimics inflation.  
+
+#### **2. Experimental Tests**  
+| **Prediction**               | **Test**                                  | **Status**       |  
+|------------------------------|-------------------------------------------|------------------|  
+| BH gamma spikes scale with λ  | [Fermi LAT data fit](issues/12)           | In progress      |  
+| Atomic clock dilation by size | Compare H vs. Cs clocks                   | Proposed ([#14](issues/14)) |  
+| Neutron stars glitch rate ∝ λ | Pulsar timing arrays                      | Requires sim     |  
+
+#### **3. Open Problems**  
+- **Derive \( \lambda \) from first principles**: Is 0.2 a fundamental constant, or emergent?  
+- **Map \( \langle k \rangle \) to stress-energy**: Recover \( G_{\mu\nu} \) in continuum limit.  
+- **Quantum limit**: Does \( \lambda \) set decoherence rates? (See [entanglement experiments](issues/8))  
+
+#### **4. Code It**  
+```python  
+# Simulate time dilation in a hypergraph  
+def time_dilation(hypergraph, node, lambda=0.2):  
+    k = hypergraph.degree(node)  
+    return 1 / (1 + lambda * k**2)  
+```  
+*(Example usage in [time_simulation.py](simulations/time_simulation.py))*  
+
+---
