@@ -101,7 +101,6 @@ Here’s the consolidated **Hypergraph Gravity** framework, integrating your mea
 
 ---  
 
-### **GitHub-Ready Structure**  
 ```markdown  
 ## Core Theory  
 ### 1. Measurement-Limited Hypergraphs  
